@@ -1,0 +1,1935 @@
+
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>dein Geschäft|Kategorie</title>
+    <link rel="shortcut icon" href="./imagenes/logo de una l.png">
+    <meta name="description" content="Wir sind (Ihr Unternehmen), eine kurze Beschreibung.">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      hsjQuery = window['jQuery'];
+      hsjQuery(document).ready(function(){
+          hsjQuery("button").click(function(){
+              alert("¡Hola, hsjQuery está funcionando!");
+          });
+      });
+  </script>
+    <meta property="og:description" content="Wir sind (Ihr Unternehmen), eine kurze Beschreibung.">
+    <meta property="og:title" content="Wir sind (Ihr Unternehmen), eine kurze Beschreibung.">
+    <style>
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-image: url('background.jpg'); /* Asegúrate de que la imagen de fondo esté en el mismo directorio o especifica la ruta correcta */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+#form-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-data {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-data input, #form-data textarea, #form-data button, #form-data select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#form-data button {
+    background-color: #444444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#form-data button:hover {
+    background-color: #333333;
+}
+
+@media (max-width: 768px) {
+    .form-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #form-text p {
+        font-size: 14px;
+    }
+    #form-data input, #form-data textarea, #form-data button, #form-data select {
+        font-size: 14px;
+    }
+}
+
+      /* Aplica estilo a los enlaces con la clase cta_button */
+a.cta_button {
+    -moz-box-sizing: content-box !important;  /* Configuración de box-sizing para Firefox */
+    -webkit-box-sizing: content-box !important;  /* Configuración de box-sizing para WebKit (Chrome, Safari) */
+    box-sizing: content-box !important;  /* Configuración de box-sizing estándar */
+    vertical-align: middle;  /* Alineación vertical en el medio */
+}
+
+/* Estilos para el menú de migas de pan (breadcrumb) */
+.hs-breadcrumb-menu {
+    list-style-type: none;  /* Sin estilo de lista */
+    margin: 0;  /* Sin margen */
+    padding: 0;  /* Sin relleno */
+}
+
+/* Estilos para los ítems del menú de migas de pan */
+.hs-breadcrumb-menu-item {
+    float: left;  /* Flota a la izquierda */
+    padding: 10px 0px 10px 10px;  /* Relleno arriba, abajo y a la izquierda */
+}
+
+/* Estilos para el divisor de migas de pan */
+.hs-breadcrumb-menu-divider:before {
+    content: '›';  /* Añade el carácter '›' antes del elemento */
+    padding-left: 10px;  /* Relleno a la izquierda */
+}
+
+/* Estilos para el enlace de la imagen destacada */
+.hs-featured-image-link {
+    border: 0;  /* Sin borde */
+}
+
+/* Estilos para la imagen destacada */
+.hs-featured-image {
+    float: right;  /* Flota a la derecha */
+    margin: 0 0 20px 20px;  /* Margen inferior y derecho */
+    max-width: 50%;  /* Ancho máximo del 50% */
+}
+
+/* Media query para pantallas con un ancho máximo de 568px */
+@media (max-width: 568px) {
+    .hs-featured-image {
+        float: none;  /* Sin flotar */
+        margin: 0;  /* Sin margen */
+        width: 100%;  /* Ancho del 100% */
+        max-width: 100%;  /* Ancho máximo del 100% */
+    }
+}
+
+/* Estilos para el texto solo visible para lectores de pantalla */
+.hs-screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);  /* Recorte del rectángulo */
+    height: 1px;  /* Altura de 1px */
+    overflow: hidden;  /* Ocultar el desbordamiento */
+    position: absolute !important;  /* Posición absoluta */
+    width: 1px;  /* Ancho de 1px */
+}
+
+</style>
+<link rel="stylesheet" href="./estilos1.css"> <!-- menu -->
+<link rel="stylesheet" href="./estilos2.css"><!-- letra del menu-->
+<link rel="stylesheet" href="./estilos3.css"><!-- h1 de la primera section-->
+<link rel="stylesheet" href="./estilos4.css"> <!--desplegable del-->
+
+<link rel="stylesheet" href="./estilos6.css"> <!-- este es de los servicios-->
+<link rel="stylesheet" href="./estilos8.css"> <!-- este es el comentario de cliente-->
+<link rel="stylesheet" href="./estilos9.css"> <!-- recuadro del testimonio-->
+<link rel="stylesheet" href="./estilos10.css"> <!-- antes del footer-->
+<link rel="stylesheet" href="./estilos11.css"><!--footer-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  
+}
+/* Estilos para la sección */
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 40px;
+    background-image: url(./imagenes/fondo\ abstracto\ 3.jfif);
+    background-size: cover; /* Esto asegura que la imagen cubra toda el área del contenedor */
+    background-position: center; /* Esto centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+}
+
+
+/* Estilos para el texto */
+.section-4 .text {
+    color:#ffcc00;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.section-4 .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.section-4 .form-container form {
+    width: 100%;
+}
+.section-4 h1{color: white;}
+
+.section-4 .form-container input,
+.section-4 .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    text-align: center;
+}
+
+.section-4 .form-container button {
+    width: 80%;
+    padding: 10px -20px; /* Cambia el valor del padding horizontal a 20px (o cualquier otro valor menor que desees) */
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+/* Estilos adicionales para hacerlo responsive */
+@media (min-width: 768px) {
+    .section-4 {
+        padding: 80px 0 60px;
+    }
+
+    .section-4 .form-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-4 .form-container form {
+        width: 45%;
+    }
+
+    .section-4 .form-container .form.message {
+        width: 100%;
+    }
+}
+
+
+</style>
+
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+#hs_cos_wrapper_module_1695747628765  { display: block !important; padding-top: 30px !important }
+.dnd_area-row-0-background-color {
+  background-color: rgb(231, 12, 12) !important;
+}
+.dnd_area-row-0-background-image {
+  background-image: url(./imagenes/imagen\ principal.jpg) !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  
+}
+.dnd_area-row-2-background-color {
+  background-color: #c5d5ea !important;
+}
+.dnd_area-row-3-background-color {
+  background-color: #197bbd !important;
+}
+.dnd_area-row-4-background-image {
+  background-image: url(./imagenes/fondo\ secundario.avif) !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-7-background-color {
+  background-color: #60a07e !important;
+}
+.dnd_area-row-8-background-color {
+  background-color: #c5d5ea !important;
+}
+.dnd_area-row-8-max-width-section-centering > .row-fluid {
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-10-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-module-14-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: end !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  justify-content: flex-start;
+}
+.dnd_area-module-14-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1668662606280-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1668662606280-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.module_1695747628765-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: start !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start;
+}
+.module_1695747628765-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .dnd_area-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-1-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-2-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-3-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-4-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-5-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-7-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-8-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-column-3-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-3-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-1-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-1-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-8-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-8-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-6-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-6-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-5-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-5-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-55-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-55-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-53-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-53-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-51-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-51-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1675972595457-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1675972595457-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-13-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-13-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-11-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-11-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-50-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-50-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-48-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-48-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1667504459745-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1667504459745-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1667500343867-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1667500343867-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1667500337144-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1667500337144-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_16675002946582-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_16675002946582-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-59-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-59-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-57-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-57-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .dnd_area-column-60-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .dnd_area-column-60-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1668665326849-row-1-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_1668665326849-row-3-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_16686653268498-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_16686653268498-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1668665810592-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1668665810592-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .footer-column-7-row-1-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .footer-column-7-row-2-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .footer-column-7-row-3-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .footer-column-7-row-4-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_16686644114502-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_16686644114502-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1668664880706-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1668664880706-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1668665163122-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1668665163122-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1668665217635-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1668665217635-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .footer-column-1-row-3-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_16509995324802-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_16509995324802-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-padding {
+  padding-top: 240px !important;
+  padding-bottom: 220px !important;
+}
+.dnd_area-row-1-padding {
+  padding-top: 56px !important;
+  padding-bottom: 56px !important;
+}
+.dnd_area-row-2-padding {
+  padding-top: 40px !important;
+  padding-bottom: 120px !important;
+}
+.dnd_area-row-3-padding {
+  padding-top: 100px !important;
+  padding-bottom: 60px !important;
+}
+.dnd_area-row-4-padding {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+.dnd_area-row-5-padding {
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-6-padding {
+  padding-top: 36px !important;
+  padding-bottom: 36px !important;
+}
+.dnd_area-row-7-padding {
+  padding-top: 150px !important;
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-8-padding {
+  padding-top: 40px !important;
+  padding-bottom: 80px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+.dnd_area-row-9-padding {
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-10-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-module-4-hidden {
+  display: none !important;
+}
+.dnd_area-column-13-row-0-padding {
+  padding-bottom: 30px !important;
+}
+.dnd_area-column-60-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-column-62-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer-row-0-padding {
+  padding-top: 70px !important;
+  padding-bottom: 0px !important;
+}
+.footer-row-1-padding {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.footer-column-10-margin {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.footer-column-10-padding {
+  padding-top: 80px !important;
+}
+.cell_1668665326849-margin {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.cell_1668665326849-padding {
+  padding-top: 80px !important;
+}
+.cell_16686653268498-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.cell_1668665810592-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer-column-7-margin {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.footer-column-7-padding {
+  padding-top: 80px !important;
+}
+.cell_16686644114502-margin {
+  margin-bottom: 10px !important;
+}
+.cell_16686644114502-padding {
+  padding-bottom: 0px !important;
+}
+.cell_1668664880706-margin {
+  margin-bottom: 10px !important;
+}
+.cell_1668665163122-margin {
+  margin-bottom: 10px !important;
+}
+.cell_1668665163122-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.cell_1668665217635-padding {
+  padding-top: 0px !important;
+}
+.footer-column-1-margin {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.footer-module-3-hidden {
+  display: none !important;
+}
+.cell_16509995324802-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer-column-13-row-1-margin {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+/* HubSpot Styles (mobile) */
+@media (max-width: 767px) {
+  .dnd_area-row-0-padding {
+    padding-top: 160px !important;
+    padding-bottom: 140px !important;
+  }
+  .dnd_area-row-1-padding {
+    padding-top: 100px !important;
+    padding-bottom: 70px !important;
+  }
+  .dnd_area-row-2-padding {
+    padding-top: 40px !important;
+    padding-bottom: 80px !important;
+  }
+  .dnd_area-row-3-padding {
+    padding-top: 80px !important;
+    padding-bottom: 50px !important;
+  }
+  .dnd_area-row-4-padding {
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+  }
+  .dnd_area-row-7-padding {
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+  }
+  .dnd_area-row-8-padding {
+    padding-top: 40px !important;
+    padding-bottom: 80px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .dnd_area-column-60-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+</style>
+    
+
+    
+    <link rel="canonical" href="https://IhrUnternehmen.com">
+
+
+<!-- Aqui termina modulo de accesibilidad --> 
+<meta property="og:url" content="https://IhrUnternehmen.com">
+
+
+
+
+<link rel="stylesheet" href="./estilos13.css">
+
+<style>
+  h3{
+    font-size: 20px;
+  }
+</style>
+  <body>
+    <div id="preloader">
+      <div id="preloader_preload"></div>
+    </div>
+    <div class="body-wrapper   hs-content-id-90419248183 hs-site-page page ">
+      
+        <div data-global-resource-path="Bomby/templates/partials/header.html"><header class="header">
+
+  
+  <a href="#" class="header__skip">Skip to content</a>
+
+  
+  <div class="container-fluid content-wrapper">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  
+
+  <div class="header__container content-wrapper">
+
+    
+    <div class="header__logo header__logo--main">
+      <div id="hs_cos_wrapper_site_logo" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  
+
+
+        <a href="#">
+          <img src="./imagenes/logo de una l.png" alt="Texto alternativo de tu logo" width="120" height="43">
+        </a>
+        
+
+
+</div>
+    </div>
+    
+
+    
+    <div class="header__column">
+
+      
+      <div class="header__row-2">
+        <div class="header__navigation header--element">
+          <div id="hs_cos_wrapper_navigation-primary" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav aria-label="Main menu" class="navigation-primary">
+  
+  
+  <ul class="submenu level-1">
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn1" href="#" class="menu-link active-item" aria-current="page">Start
+
+</a>
+
+    
+  </li>
+
+    
+      
+  <li class="has-submenu menu-item2 hs-skip-lang-url-rewrite">
+    <a id="btn2" href="javascript:;" class="menu-link">über uns
+    </a>
+
+    
+      <input type="checkbox" id="Quiénes Somos" class="submenu-toggle">
+      <label class="menu-arrow" for="Quiénes Somos">
+        <span class="menu-arrow-bg"></span>
+      </label>
+      
+
+    
+  
+
+    
+  </li>  
+      
+  <li class="has-submenu menu-item2 hs-skip-lang-url-rewrite">
+    <a id="btn3" href="javascript:;" class="menu-link">Lösungen
+    </a>
+
+    
+      <input type="checkbox" id="Soluciones" class="submenu-toggle">
+      <label class="menu-arrow" for="Soluciones">
+        <span class="menu-arrow-bg"></span>
+      </label>
+      
+  
+  <ul class="submenu level-2">
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn1" href="#" class="menu-link">Dienst 1
+    </a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn2" href="#" class="menu-link">Dienst 2
+    </a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn3" href="#" class="menu-link">Dienst 3
+    </a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn4" href="#" class="menu-link">Dienst 4
+    </a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn5" href="#" class="menu-link">Dienst 5
+    </a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn6" href="#" class="menu-link">Dienst 6
+    </a>
+
+    
+  </li>
+
+    
+  </ul>
+
+    
+  </li>
+
+    
+      
+  
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn5" href="#" class="menu-link">Blog</a>
+
+    
+  </li>
+
+    
+      
+  <li class="no-submenu menu-item hs-skip-lang-url-rewrite">
+    <a id="btn6" href="#" class="menu-link" target="_blank" rel="noopener">Kontakt</a>
+
+    
+  </li>
+
+    
+  </ul>
+
+</nav></div>
+        </div>
+        
+        <div class="header--toggle header__navigation--toggle"></div>
+        
+        <div class="header--toggle header__search--toggle"></div>
+        <div class="header__close--toggle"></div>
+        <div class="header__search header--element">
+         <div id="hs_cos_wrapper_module_16836625815985" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+<div class="hs-search-field">
+    <div class="hs-search-field__bar">
+      <form data-hs-do-not-collect="true" action="//2085801.hs-sites.com/prueba-resultado">
+        
+        <input type="text" class="hs-search-field__input" name="term" autocomplete="off" aria-label="Search" placeholder="Search">
+
+        
+          <input type="hidden" name="type" value="SITE_PAGE">
+        
+        
+        
+          <input type="hidden" name="type" value="BLOG_POST">
+          <input type="hidden" name="type" value="LISTING_PAGE">
+        
+        
+
+        
+      </form>
+    </div>
+    <ul class="hs-search-field__suggestions"></ul>
+</div></div>
+        </div>
+      </div>
+      
+
+    </div>
+    
+
+  </div>
+
+</header></div>
+      
+
+      
+
+<main id="main-content" class="body-container-wrapper">
+  
+  <div class="container-fluid body-container body-container--home01">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-vertical-alignment dnd_area-row-0-background-color dnd-section dnd_area-row-0-padding dnd_area-row-0-background-image">
+<div class="row-fluid ">
+<div class="span8 widget-span widget-type-cell dnd-column dnd_area-column-1-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="8">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1675946106607" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1675946106607_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div>
+<p class="parrafo-up">Dienst 1 | Dienst 2 | Dienst 3 | Dienst 4 | Dienst 5 | Dienst 6</p>
+</div></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-2" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="heading-title-wrapper heading-align-left heading-color-light" id="">
+
+  <h1 class="heading-title" id="">
+    Ich bin [Name], ein Fachmann mit [X] Jahren Erfahrung in [Fachgebiet]. Mein Fokus liegt auf der Bereitstellung innovativer und maßgeschneiderter Lösungen für<span class="underline02"> die Bedürfnisse meiner Kunden erfüllen.</span></h1>
+
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1671191877545" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  
+    
+  
+
+
+
+
+
+
+<a id="btn-conocenos" class="button bg-false" href="#">
+  kenne uns
+</a></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 dnd_area-row-1-padding dnd_area-row-1-vertical-alignment dnd-section">
+<div class="row-fluid ">
+<div class="span2 widget-span widget-type-cell dnd_area-column-5-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="2">
+
+</div><!--end widget-span -->
+<div class="span8 widget-span widget-type-cell dnd_area-column-6-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="2" data-w="8">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-7" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="heading-title-wrapper heading-align-center heading-color-dark" id="">
+
+  <div class="title-subtitle"><span class="blue">Wir helfen Ihnen zu wachsen.</span></div>
+
+  <h2 class="heading-title" id="">Welche  <span class="underline01" id="soluciones">Lösungen </span> bieten wir an?</h2>
+
+  <p class="title-description"><span class="dark"><b>Wir sind die Besten und wir möchten, dass auch Sie Spitzenleistungen erbringen!</b><br>Wir sind darauf spezialisiert, maßgeschneiderte Antworten und erstklassige Dienstleistungen zu liefern.</span></p>
+
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span2 widget-span widget-type-cell dnd_area-column-8-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="10" data-w="2">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd_area-row-2-padding dnd_area-row-2-background-color dnd-section dnd_area-row-2-vertical-alignment">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-cell dnd_area-column-51-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="4">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-52" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 1.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+       
+      
+       
+			<h3>Service
+        <br>1</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href="#"></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1667499813838" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 2.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+    
+      
+       
+			<h3>Service <br>2</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href="#"></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-cell dnd_area-column-53-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="4" data-w="4">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-54" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 3.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+       
+      
+       
+			<h3>Service<br>3</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href="#"></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16674998209373" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 4.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+      
+       
+			<h3>Service <br>4</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href="#"></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-cell dnd_area-column-55-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="8" data-w="4">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-56" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 5.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+      
+      
+       
+			<h3>Service <br>5</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href=""></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1667499829527" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="" class="promo-box">
+	<div class="promo-box-bg" style="background-image: url(./imagenes/servicios\ 6.jpg);"></div>
+	<div class="inner">
+		<div class="heading-wrapper">
+      
+        <!-- HTML to show when checked -->
+      
+       
+			<h3>Service <br>6</h3>
+		</div>
+		<div class="onhover-content">Beschreibung Ihrer Dienstleistung</div>
+	</div>
+  
+    
+    
+    
+    
+    
+    <a href="./diseñoweb.html"></a>
+  
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section dnd_area-row-3-padding dnd_area-row-3-background-color dnd_area-row-3-vertical-alignment">
+<div class="row-fluid ">
+<div class="span7 widget-span widget-type-cell dnd-column dnd_area-column-11-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="7">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-12" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_dnd_area-module-12_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h2 class="titulo-h3" style="color: #fff;"><span style="color: #000000;"><span class="underline02">Wir fördern das Wachstum unserer Kunden </span>  mit personalisierten und effektiven Strategien. </span></h2></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell dnd_area-column-13-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="7" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-17 dnd_area-column-13-row-0-padding dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd_area-module-14-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-14" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  
+    
+  
+
+
+
+
+
+  
+
+
+<a id="btn-contactanos" class="button bg-false" href="#" target="_blank" rel="noopener">
+  kontaktiere uns
+</a></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span2 widget-span widget-type-cell cell_1675972595457-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="10" data-w="2">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1675972594712" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="empty-space-module" style="height:30px"></div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-19 dnd_area-row-4-background-image dnd-section dnd_area-row-4-padding dnd_area-row-4-vertical-alignment">
+<div class="row-fluid ">
+<div class="span6 widget-span widget-type-cell dnd-column dnd_area-column-48-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="6">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-20 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-49" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="heading-title-wrapper heading-align-left heading-color-dark" id="">
+
+  <div class="title-subtitle"></div>
+
+  <h2 class="heading-title" id=""><span class="white">Ich werde für meine Fähigkeit anerkannt, in jedem Projekt eine <span class="underline01">positive und transformative Wirkung </span>zu erzielen.</span></h2>
+
+  <p class="title-description"></p>
+
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span6 widget-span widget-type-cell dnd_area-column-50-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="6" data-w="6">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-21 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-22 dnd-section dnd_area-row-5-padding dnd_area-row-5-vertical-alignment">
+<div class="row-fluid ">
+<div class="span3 widget-span widget-type-cell cell_16675002946582-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-23 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1667500294393" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="icon-block" style="background-color: rgba(255, 255, 255, 0.0);">
+  <div class="icon-block_wrapper" style="text-align: left;">
+    
+      
+      
+    
+    <div>
+      <h3 class="icon-block_title widget_1667500294393"><span class="blue-grow">01.</span><br>Wer bin ich und was ist mein Job?
+      </h3>
+      <div class="icon-block_desc">
+        <p>Mein Name ist (Ihr Name) und ich widme mich (Ihrem Dienst).<br><br><br><br><br><br></p>
+      </div>
+      
+    </div>
+          
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell dnd-column cell_1667500337144-vertical-alignment" style="" data-widget-type="cell" data-x="3" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-24 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1667500336860" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="icon-block" style="background-color: rgba(255, 255, 255, 0.0);">
+  <div class="icon-block_wrapper" style="text-align: left;">
+    
+      
+      
+    
+    <div>
+      <h3 class="icon-block_title widget_1667500336860"><span class="blue-grow">02.</span><br>Warum sollten Sie sich für uns entscheiden? <br><br></h3>
+      <div class="icon-block_desc">
+        <p>
+          Weil ich über die richtige Kombination aus Fähigkeiten, Erfahrung, Leidenschaft und Werten verfüge, die Sie zum idealen Kandidaten für die Position machen.<br><br><br></p>
+      </div>
+      
+    </div>
+          
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+<div class="span3 widget-span widget-type-cell cell_1667504459745-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="9" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-26 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16675044597453" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="icon-block" style="background-color: rgba(255, 255, 255, 0.0);">
+  <div class="icon-block_wrapper" style="text-align: left;">
+    
+      
+      
+    
+    <div>
+      <h3 class="icon-block_title module_16675044597453"><span class="blue-grow">03.</span><br>
+        Wie helfen wir Ihnen, sich zu verbessern?</h3>
+      <div class="icon-block_desc">
+        <p>Wir setzen ein Ziel, entwickeln eine Strategie und führen Monitoring und Evaluation durch.<br><br><br><br><br><br></p>
+      </div>
+      
+    </div>
+          
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell cell_1667504459745-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="9" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-26 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16675044597453" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="icon-block" style="background-color: rgba(255, 255, 255, 0.0);">
+  <div class="icon-block_wrapper" style="text-align: left;">
+    
+      
+      
+    
+    <div>
+      <h3 class="icon-block_title module_16675044597453"><span class="blue-grow">04.</span><br>Welche Schritte unternehme ich, um die Qualität im Laufe der Zeit aufrechtzuerhalten?</h3>
+      <div class="icon-block_desc">
+        <p>Wir implementieren von Beginn jedes Projekts an strenge Standards und stellen sicher, dass alle Schritte und Prozesse definiert und dokumentiert sind.<br><br></p>
+      </div>
+      
+    </div>
+          
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+
+
+
+
+<div class="row-fluid-wrapper row-depth-1 row-number-29 dnd_area-row-7-background-color dnd_area-row-7-vertical-alignment dnd-section dnd_area-row-7-padding">
+<div class="row-fluid ">
+<div class="span8 widget-span widget-type-cell dnd_area-column-57-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="8">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-30 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-58" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="heading-title-wrapper heading-align-left heading-color-dark" id="">
+
+  <div class="title-subtitle"><span class="dark">Kundenempfehlung</span></div>
+
+  <h2 class="heading-title" id="">Kunden,die<span class="underline01">uns vertrauen.</span></h2>
+
+  <p class="title-description"></p>
+
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-cell dnd_area-column-59-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="8" data-w="4">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-31 dnd_area-row-8-max-width-section-centering dnd-section dnd_area-row-8-padding dnd_area-row-8-vertical-alignment dnd_area-row-8-background-color">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd_area-column-60-vertical-alignment dnd-column dnd_area-column-60-padding" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-32 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-61" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="testimonials-slider splide" data-splide="{
+                                                        &quot;type&quot;:&quot;loop&quot;,
+                                                        &quot;autoHeight&quot;:&quot;true&quot;,
+                                                        &quot;arrows&quot;:&quot;true&quot;,
+                                                        &quot;perPage&quot;:&quot;3&quot;,
+                                                        &quot;perMove&quot;:&quot;3&quot;,
+                                                        &quot;gap&quot;:&quot;30px&quot;,
+                                                        &quot;padding&quot;:&quot;0&quot;,
+                                                        &quot;breakpoints&quot;:{
+                                                          &quot;768&quot;:{&quot;perPage&quot;:&quot;1&quot;,&quot;perMove&quot;:&quot;1&quot;},
+                                                          &quot;1139&quot;:{&quot;perPage&quot;:&quot;2&quot;,&quot;perMove&quot;:&quot;2&quot;}
+                                                        }
+                                                     }">
+	<div class="splide__track">
+		<ul class="splide__list">
+    
+      <li class="testimonial splide__slide">
+        	
+            <!-- HTML to show when checked -->
+            
+          
+        <div class="testimonial-text">„Die Zusammenarbeit mit (ihrem Unternehmen) war eine unglaubliche Erfahrung. Ihr Community-Manager-Team hat eine engagierte Community rund um unsere Marke geschaffen. Die Verkäufe unseres Online-Shops sind deutlich gestiegen und wir haben von unseren Kunden viele positive Kommentare zu unserer Präsenz in sozialen Netzwerken erhalten.“ Netzwerke.“<br><br></div>
+        <div class="testimonial-author-photo" style="background-image: url();"></div>
+        <div class="testimonial-author-wrap">
+          <p class="testimonial-author">Carla Cifuentes</p>
+          <div class="testimonial-author-desc">Gründer von EcoFriendly Shop</div>
+        </div>
+      </li>
+    
+      <li class="testimonial splide__slide">
+        	
+            <!-- HTML to show when checked -->
+      
+          
+        <div class="testimonial-text">(Ihr Unternehmen) hat unsere Online-Präsenz verändert. Dank ihrer Strategie konnten wir einen Anstieg des Web-Traffics um 50 % verzeichnen und unsere Umsätze sind in die Höhe geschossen. Sie sind professionell, kreativ und den Markttrends immer einen Schritt voraus.<br><br><br></div>
+        <div class="testimonial-author-photo" style="background-image: url();"></div>
+        <div class="testimonial-author-wrap">
+          <p class="testimonial-author">Juan Pérez</p>
+          <div class="testimonial-author-desc">CEO von Tech Solutions
+</div>
+        </div>
+      </li>
+    
+      <li class="testimonial splide__slide">
+        	
+            <!-- HTML to show when checked -->
+            
+          
+        <div class="testimonial-text">(Ihr Unternehmen) hat uns geholfen, unsere SEM-Kampagnen zu optimieren und unseren ROI zu verbessern. Ihre fundierten Marktkenntnisse und ihre Liebe zum Detail haben es uns ermöglicht, unsere Marketingziele effektiver und effizienter zu erreichen. Ich empfehle sie ohne zu zögern.
+</div>
+        <div class="testimonial-author-photo" style="background-image: url();"></div>
+        <div class="testimonial-author-wrap">
+          <p class="testimonial-author">Ana Martínez</p>
+          <div class="testimonial-author-desc">Inhaber von Moda Chic</div>
+        </div>
+      </li>
+    
+		</ul>
+	</div>
+  
+  <div id="arrow-22" class="splide__arrows splide__arrows--ltr">
+    <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewbox="0 0 15 15" fill="none">
+        <path d="M12 7.5L4 0V15L12 7.5Z" fill="white" />
+       </svg>
+    </button>
+    <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+     <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewbox="0 0 15 15" fill="none">
+      <path d="M12 7.5L4 0V15L12 7.5Z" fill="white" />
+     </svg>
+    </button>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+
+<div class="row-fluid-wrapper row-depth-1 row-number-35 dnd-section dnd_area-row-10-padding dnd_area-row-10-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd_area-column-62-padding dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-36 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-63" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="large-promo large-promo_dark">
+  <div class="large-promo-subtitle title-subtitle"></div>
+  <div class="large-promo-text"><h2>¡<span class="underline02">Gemeinsam</span> fördern wir Ihre berufliche Entwicklung durch Innovation, kontinuierliches Lernen und Engagement für  <span style="color: #ffcc00;">Spitzenleistungen.</span></h2></div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="section-4" id="contacto">
+  <div class="text">
+      <h1>Füllen Sie das untenstehende Formular aus, um Updates und exklusive Angebote zu erhalten.</h1>
+      <p>Jede Woche versenden wir einen Newsletter mit Tipps und Tricks, die Ihnen helfen, besser zu werden.</p>
+  </div>
+  <div class="form-container">
+      <form class="form" id="formMD" action="submit" method="post" name="form">
+          <div class="form-field-container">
+              <input type="text" placeholder="   Ihr Name
+              *" name="full_name" id="full_name" required>
+          </div>
+          <div class="form-field-container">
+              <input type="email" placeholder="Email" name="email" id="email" required>
+          </div>
+          <div class="form-field-container"><input type="text" placeholder="Telefonnummer"></div>
+          <div class="form-field-container">
+              <button type="submit">zu abonnieren</button>
+          </div>
+      </form>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+    
+    
+      
+    
+
+    
+      
+    <footer>
+
+    <a class="social-links__link" href="https://www.instagram.com" target="_blank" rel="noopener">
+      <span id="hs_cos_wrapper_footer-module-5_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon social-links__icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-labelledby="instagram1" role="img"><title id="instagram1">Follow us on Instagram</title><g id="instagram1_layer"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></g></svg></span>
+    </a>
+  
+    
+    
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a class="social-links__link" href="https://www.linkedin.com" target="_blank" rel="noopener">
+      <span id="hs_cos_wrapper_footer-module-5__2" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon social-links__icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-labelledby="linkedin-in2" role="img"><title id="linkedin-in2">Follow us on LinkedIn</title><g id="linkedin-in2_layer"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z" /></g></svg></span>
+    </a>
+  
+    
+    
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a class="social-links__link" href="https://www.youtube.com" target="_blank" rel="noopener">
+      <span id="hs_cos_wrapper_footer-module-5__3" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon social-links__icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-labelledby="youtube3" role="img"><title id="youtube3">Follow us on Youtube</title><g id="youtube3_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span>
+    </a>
+  
+    
+    
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a class="social-links__link" href="https://www.facebook.com" target="_blank" rel="noopener">
+      <span id="hs_cos_wrapper_footer-module-5__4" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon social-links__icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 264 512" aria-labelledby="facebook-f4" role="img"><title id="facebook-f4">Follow us on Facebook</title><g id="facebook-f4_layer"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" /></g></svg></span>
+    </a>
+  
+    
+    
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a class="social-links__link" href="https://twitter.com" target="_blank" rel="noopener">
+      <span id="hs_cos_wrapper_footer-module-5__5" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon social-links__icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-labelledby="twitter5" role="img"><title id="twitter5">Follow us on Facebook</title><g id="twitter5_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span>
+    </a>
+  
+  </footer>
+
+  
+    
+
+<script src="./java1.js"></script> <!-- derechos de autor-->
+<script src="./java2.js"></script> <!--para navegadores antiguos-->
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'es';
+</script>
+
+<script src="./java3.js"></script> <!--menu-->
+<script src="./java4.js"></script> <!-- para el submenu-->
+<script src="./java5.js"></script> <!--para los idiomas-->
+<script src="./java6.js"></script> <!--para el carrucel-->
+<script src="./java7.js"></script> <!--testimonio-->
+
+  
+</body></html>
